@@ -1,0 +1,100 @@
+.details-list {
+  box-shadow: 2px 2px 200px #888, -2px -2px 200px #888;
+  background-color: white;
+  height: 500px;
+  width: 80%;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-y: scroll;
+  flex: 1;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.details-list .req-person {
+  height: 10%;
+  width: 95%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid black;
+}
+
+.details-list .req-person h2 {
+  font-size: 30px;
+}
+
+.details-list .req-person h2 span {
+  font-size: 23px;
+  padding-left: 20px;
+  color: red;
+}
+
+.details-list .detail {
+  height: 80%;
+  width: 95%;
+}
+
+.details-list .detail .details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 15px auto;
+  width: 100%;
+  height: auto;
+}
+
+.details-list .detail .details h2 {
+  display: flex;
+  align-items: center;
+  width: 40%;
+  height: 100%;
+  padding-left: 10px;
+}
+
+.details-list .detail .details p {
+  display: flex;
+  align-items: center;
+  width: 60%;
+  height: 100%;
+}
+
+.details-list::-webkit-scrollbar {
+  width: 8px;
+}
+
+.details-list::-webkit-scrollbar-track {
+  background-color: aliceblue;
+}
+
+.details-list::-webkit-scrollbar-thumb {
+  background-color: #888;
+}
+
+.details-list .btns {
+  height: 10%;
+  width: 95%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.details-list .btns button {
+    padding: 5px 10px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    background-color: aqua;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+    margin: 0 20px;
+}
+.details-list .btns button:hover {
+  background-color: purple;
+  color: white;
+}

@@ -1,0 +1,89 @@
+.popup {
+  height: 100px;
+  width: 95%;
+  max-width: 600px;
+  border: 1px solid black;
+  margin: 20px auto;
+}
+.popup .popup-header {
+  height: 45px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid black;
+}
+
+.popup .popup-header .popup-header-icon {
+  height: 100%;
+  width: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.popup .popup-header .popup-header-icon .MuiSvgIcon-root {
+  font-size: 35px;
+}
+
+.popup .popup-header div {
+  padding: 0 20px;
+}
+
+.popup .popup-header h2 {
+  margin: 0 10px;
+  font-size: 18px;
+  color: #0000ff;
+}
+
+.popup .popup-header h2 span {
+  padding-left: 10px;
+  font-size: 23px;
+  color: #ff0000;
+}
+
+.popup-btns {
+  width: 100%;
+  height: 55px;
+  display: flex;
+  align-items: center;
+}
+
+.popup-btns .accept-reject {
+  width: 90%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.popup-btns .accept-reject button {
+  padding: 5px 10px;
+  border-radius: 20px;
+  outline: none;
+  border: none;
+  background-color: aqua;
+  font-size: 20px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.popup-btns button:hover {
+  background-color: purple;
+  color: white;
+}
+
+.popup-btns .more-info {
+  width: 10%;
+}
+
+.popup-btns .more-info .MuiSvgIcon-root {
+  font-size: 30px;
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  padding: 5px;
+  border-radius: 50%;
+}
+
+.popup-btns .more-info .MuiSvgIcon-root:hover {
+  background-color: #666;
+  color: black;
+}

@@ -1,0 +1,18 @@
+.appbar{
+    height: 75px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #28df56;
+    position: sticky;
+    top: 0;
+}
+.appbar .navigator{
+    height: 100%;
+    width: 5%;
+}
+.appbar .name{
+    font-size: 40px;
+    color: #fff;
+}

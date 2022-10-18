@@ -1,0 +1,120 @@
+.input-content {
+  box-shadow: 2px 2px 200px #888, -2px -2px 200px #888;
+  height: 500px;
+  width: 80%;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-y: scroll;
+  flex: 1;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background-color: white;
+}
+
+.input-content::-webkit-scrollbar{
+  width: 8px;
+}
+
+.input-content::-webkit-scrollbar-track{
+  background-color: #ddd;
+}
+
+.input-content::-webkit-scrollbar-thumb{
+  background-color: #777;
+  border-radius: 10px;
+}
+
+.input-content .header{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.input-content .header h1{
+  font-size: 27px;
+  margin: 10px 0;
+  font-weight: 650;
+  color: slateblue;
+  border-bottom: 2px solid slateblue;
+}
+
+
+.input-content .input-field {
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  margin: 15px 0;
+}
+
+.input-content .input-field .MuiTextField-root{
+  width: 90%;
+  height: 40px;
+  border: none;
+  outline: none;
+  color: #888;
+  font-size: 20px;
+  margin: 0 auto;
+}
+
+.input-content .input-field .MuiSvgIcon-root {
+  font-size: 35px;
+}
+
+
+.input-content .input-field-btn{
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+.input-content .input-field-btn  .MuiButton-root{
+  background-color: rebeccapurple;
+  color: white;
+  margin: 0 20px;
+}
+
+.blood {
+  color: red;
+}
+
+.health{
+    color: red;
+}
+
+.education{
+    color: dodgerblue;
+}
+
+.food{
+    color: green;
+}
+
+.clothes{
+    color: yellowgreen;
+}
+
+.missing{
+  color: purple;
+}
+
+.add-btn {
+  cursor: pointer;
+  position: fixed;
+  margin: 30px;
+  background-color: #a70031;
+  border-radius: 50%;
+  bottom: 0;
+  right: 0;
+}
+
+.add-btn .MuiIconButton-root{
+  color: #fff;
+
+}
